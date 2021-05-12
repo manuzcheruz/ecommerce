@@ -1,0 +1,47 @@
+.card-wrapper-wide {
+    height: 150px;
+    width: 330px;
+    background-color: red;
+    border-radius: 20px;
+    margin: 10px 10px 10px;
+}
+
+.card-wrapper-wide .body {
+    padding: 8px 8px 8px 8px;
+    display: grid;
+    grid-template-columns: 3(0.4fr 1fr 0.2fr);
+}
+
+.card-wrapper-wide .body .card-image {
+    height: 130px;
+    width: auto;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+.card-wrapper-wide .body .content {
+    text-align: left;
+}
+
+.card-wrapper-wide .body .content .card-title {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-wrapper-wide .body .content .card-subtitle {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    color: grey;
+}
+
+.card-wrapper-wide .body .content .price {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.card-wrapper-wide .body .btn-add {
+    padding-top: 50px;
+}

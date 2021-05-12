@@ -1,0 +1,37 @@
+.card-wrapper {
+    height: 350px;
+    width: 300px;
+    background-color: red;
+    border-radius: 20px;
+    margin: 10px 10px 10px;
+}
+
+.card-wrapper .body {
+    padding: 8px 8px 8px 8px;
+}
+
+.card-wrapper .body .card-image {
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+.card-wrapper .body .card-title {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-wrapper .body .card-subtitle {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    color: grey;
+}
+
+.card-wrapper .body .price {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 23px;
+}

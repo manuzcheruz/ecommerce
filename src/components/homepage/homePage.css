@@ -1,0 +1,28 @@
+.home-wrapper {
+    background-color: #FDFDFD;
+    height: 100vh;
+    width: 100vw;
+}
+
+.title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #D2B89A;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.sub-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 2(1fr 1fr);
+}
+
+.sub-title .sub-title-text {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
