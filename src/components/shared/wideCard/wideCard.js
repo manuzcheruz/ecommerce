@@ -21,6 +21,9 @@ function WideCard() {
                         {/* $ {props.price} */}
                         $ 299.99
                     </div>
+                    <div className="extra">
+                        Save 10% on this order
+                    </div>
                 </div>
                 <div className="btn-add">
                         {/* $ {props.price} */}

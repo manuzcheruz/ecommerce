@@ -1,0 +1,24 @@
+.badge-wrapper {
+    width: 140px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #F7F7F7;
+    display: grid;
+    padding: 5px;
+    grid-template-columns: 1fr 2fr;
+}
+
+.badge-wrapper .image {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.badge-wrapper .text {
+    padding-top: 20px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+

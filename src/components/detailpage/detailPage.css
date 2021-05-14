@@ -1,0 +1,97 @@
+.detailpage-wrapper {
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 95vw;
+    margin-left: -15px;
+}
+
+.detailpage-wrapper .text-content {
+    position: absolute;
+    z-index: 2;
+    margin-top: 420px;
+    background-color: red;
+    border-radius: 20px;
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+}
+
+.detailpage-wrapper .text-content .sub-title {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.detailpage-wrapper .text-content .title {
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+    font-weight: bold;
+    /* font-size: 20px; */
+    margin-top: 10px;
+}
+
+.detailpage-wrapper .text-content .title .text {
+    color: black;
+    font-size: 23px;
+}
+
+.detailpage-wrapper .text-content .title .price {
+    color: black;
+    font-size: 20px;
+    text-align: right;
+}
+
+.detailpage-wrapper .text-content .text {
+    margin-top: 15px;
+    font-size: 18px;
+    color: grey;
+    line-height: 22px;
+}
+
+.detailpage-wrapper .text-content .title-next {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.detailpage-wrapper .text-content .mini-wrapper {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.7fr;
+}
+
+.detailpage-wrapper .text-content .mini-wrapper .item {
+    border-radius: 15px;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+}
+
+.detailpage-wrapper .bottom {
+    bottom: 0px;
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    background-image: linear-gradient(to bottom,transparent,white, white);
+}
+
+.detailpage-wrapper .bottom .btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.detailpage-wrapper .bottom .btn button {
+    width: 95%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    border: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
