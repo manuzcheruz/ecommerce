@@ -39,6 +39,7 @@ function DetailPage() {
             <div className="bottom">
                 <div className="btn">
                     <button>
+                        
                         Add to cart
                     </button>
                 </div>
