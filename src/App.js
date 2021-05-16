@@ -1,14 +1,14 @@
 import './App.css';
-import DetailPage from './components/detailpage/detailPage';
+// import DetailPage from './components/detailpage/detailPage';
 // import HomePage from './components/homepage/homePage';
-// import SearchPage from './components/searchpage/searchPage';
+import SearchPage from './components/searchpage/searchPage';
 
 function App() {
   return (
     <div className="App">
       {/* <HomePage /> */}
-      {/* <SearchPage /> */}
-      <DetailPage />
+      <SearchPage />
+      {/* <DetailPage /> */}
     </div>
   );
 }

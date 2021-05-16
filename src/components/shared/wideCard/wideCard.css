@@ -1,9 +1,10 @@
 .card-wrapper-wide {
     height: 130px;
     width: 330px;
-    background-color: red;
+    background-color: white;
     border-radius: 20px;
     margin: 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-wrapper-wide .body {
@@ -16,7 +17,7 @@
     height: 110px;
     width: auto;
     border-radius: 20px;
-    background-color: blue;
+    background-color: #E6E6E6;
 }
 
 .card-wrapper-wide .body .content {
@@ -28,28 +29,30 @@
     margin-top: 5px;
     font-weight: bold;
     font-size: 16px;
+    color: #433850;
 }
 
 .card-wrapper-wide .body .content .card-subtitle {
     margin-top: 5px;
     font-weight: bold;
     font-size: 13px;
-    color: grey;
+    color: #E6D8C9;
 }
 
 .card-wrapper-wide .body .content .price {
     margin-top: 5px;
     font-weight: bold;
     font-size: 16px;
+    color: #433850;
 }
 
 .card-wrapper-wide .body .content .extra {
     margin-top: 5px;
     font-weight: bold;
     font-size: 13px;
-    color: grey;
+    color: #E6D8C9;
 }
 
 .card-wrapper-wide .body .btn-add {
-    padding-top: 50px;
+    padding-top: 80px;
 }

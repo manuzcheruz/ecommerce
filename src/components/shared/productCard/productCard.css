@@ -1,9 +1,10 @@
 .card-wrapper {
     height: 350px;
     width: 300px;
-    background-color: red;
-    border-radius: 20px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
     margin: 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-wrapper .body {
@@ -13,25 +14,32 @@
 .card-wrapper .body .card-image {
     height: 250px;
     width: auto;
-    border-radius: 20px;
-    background-color: blue;
+    border-radius: 30px;
+    background-color: #E6E6E6;
+}
+
+.card-wrapper .body .card-image .heart {
+    margin-right: -220px;
+    padding-top: 20px;
 }
 
 .card-wrapper .body .card-title {
     margin-top: 5px;
     font-weight: bold;
     font-size: 20px;
+    color: #433850;
 }
 
 .card-wrapper .body .card-subtitle {
     margin-top: 5px;
     font-weight: bold;
     font-size: 15px;
-    color: grey;
+    color: #E6D8C9;
 }
 
 .card-wrapper .body .price {
     margin-top: 5px;
     font-weight: bold;
     font-size: 23px;
+    color: #433850;
 }

@@ -21,3 +21,7 @@ export {
 export {
     default as Star
 } from './star';
+
+export {
+    default as Add
+} from './add';

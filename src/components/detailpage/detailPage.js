@@ -1,5 +1,6 @@
 import React from 'react';
 import './detailPage.css';
+import { Basket, Star } from '../../assets/icons';
 
 function DetailPage() {
     return (
@@ -17,7 +18,11 @@ function DetailPage() {
                     </div>
                 </div>
                 <div className="ratings">
-
+                    <span><Star height="20" color="#F49A16" /></span>
+                    <span><Star height="20" color="#F49A16" /></span>
+                    <span><Star height="20" color="#F49A16" /></span>
+                    <span><Star height="20" color="#F49A16" /></span>
+                    <span className="value">4.0 (216 Reviews)</span>
                 </div>
                 <div className="text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet ultricies aliquam. In eleifend nunc vitae varius.
@@ -39,7 +44,7 @@ function DetailPage() {
             <div className="bottom">
                 <div className="btn">
                     <button>
-                        
+                        <span><Basket height="20" /></span>
                         Add to cart
                     </button>
                 </div>

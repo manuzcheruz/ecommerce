@@ -3,44 +3,59 @@
     position: absolute;
     z-index: 1;
     height: 100vh;
-    width: 95vw;
+    width: 100vw;
     margin-left: -15px;
+    background-color: #E8E8E8;
 }
 
 .detailpage-wrapper .text-content {
     position: absolute;
     z-index: 2;
     margin-top: 420px;
-    background-color: red;
-    border-radius: 20px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
     height: 400px;
-    width: 100%;
-    padding: 10px;
+    width: 92%;
+    padding: 15px;
 }
 
 .detailpage-wrapper .text-content .sub-title {
     font-size: 18px;
-    color: black;
+    color: #DBC8B3;
     font-weight: bold;
 }
 
 .detailpage-wrapper .text-content .title {
     display: grid;
-    grid-template-columns: 1fr 0.3fr;
+    grid-template-columns: 1fr 0.2fr;
     font-weight: bold;
     /* font-size: 20px; */
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .detailpage-wrapper .text-content .title .text {
-    color: black;
+    color: #190927;
     font-size: 23px;
 }
 
 .detailpage-wrapper .text-content .title .price {
-    color: black;
+    color: #CFB292;
     font-size: 20px;
     text-align: right;
+    margin-top: 15px;
+}
+
+.detailpage-wrapper .text-content .ratings {
+    margin-top: 10px;
+}
+
+.detailpage-wrapper .text-content .ratings span {
+    margin-right: 5px;
+}
+.detailpage-wrapper .text-content .ratings .value {
+    margin-left: 5px;
+    font-size: 14px;
+    color: grey;
 }
 
 .detailpage-wrapper .text-content .text {
@@ -54,6 +69,7 @@
     margin-top: 30px;
     font-weight: bold;
     font-size: 23px;
+    color: #190927;
 }
 
 .detailpage-wrapper .text-content .mini-wrapper {
@@ -94,4 +110,8 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
+}
+
+.detailpage-wrapper .bottom button span {
+    margin-right: 8px;
 }

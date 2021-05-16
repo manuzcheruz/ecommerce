@@ -7,19 +7,21 @@
     font-size: 23px;
     color: #D2B89A;
     line-height: 23px;
+    text-align: left;
 }
 
 .page-wrapper .title .results {
     font-size: 15px;
     padding-top: 20px;
     color: grey;
+    text-align: right;
 }
 
 .page-wrapper .badges {
     display: grid;
     grid-template-columns: 0.8fr 0.8fr 0.6fr;
     grid-gap: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 
@@ -28,4 +30,12 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* grid-template-areas: ''; */
+}
+
+.page-wrapper .cards-wrapper .item3 {
+    margin-top: -80px;
+}
+
+.page-wrapper .cards-wrapper .item5 {
+    margin-top: -40px;
 }

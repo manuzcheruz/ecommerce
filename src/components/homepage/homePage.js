@@ -20,7 +20,12 @@ function HomePage() {
 
                 </div>
             </div>
-            <ProductCard />
+            <div className="popular-scroll">
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+            </div>
             <div className="sub-title">
                 <div className="sub-title-text">
                     New Arrival
@@ -29,7 +34,11 @@ function HomePage() {
 
                 </div>
             </div>
-            <WideCard />
+            <div className="popular-scroll">
+                <WideCard />
+                <WideCard />
+                <WideCard />
+            </div>
         </div>
     )
 }

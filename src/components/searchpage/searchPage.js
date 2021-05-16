@@ -20,16 +20,22 @@ function SearchPage() {
             </div>
             <div className="cards-wrapper">
                 <div className="item1">
-                    <ProductCard height='250px' imageHeight='150px' />
+                    <ProductCard height='220px' imageHeight='120px' />
                 </div>
                 <div className="item2">
-                    <ProductCard height='250px' imageHeight='150px' />
+                    <ProductCard height='300px' imageHeight='200px' />
                 </div>
                 <div className="item3">
-                    <ProductCard height='250px' imageHeight='150px' />
+                    <ProductCard height='260px' imageHeight='160px' />
                 </div>
                 <div className="item4">
-                    <ProductCard height='250px' imageHeight='150px' />
+                    <ProductCard height='220px' imageHeight='120px' />
+                </div>
+                <div className="item5">
+                    <ProductCard height='220px' imageHeight='120px' />
+                </div>
+                <div className="item6">
+                    <ProductCard height='220px' imageHeight='120px' />
                 </div>
             </div>
         </div>
