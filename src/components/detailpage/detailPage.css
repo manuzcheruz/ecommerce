@@ -6,15 +6,16 @@
     width: 100vw;
     margin-left: -15px;
     background-color: #E8E8E8;
+    margin-top: -5px;
 }
 
 .detailpage-wrapper .text-content {
     position: absolute;
     z-index: 2;
-    margin-top: 420px;
+    margin-top: 300px;
     background-color: #FFFFFF;
     border-radius: 30px;
-    height: 400px;
+    height: 650px;
     width: 92%;
     padding: 15px;
 }
@@ -76,13 +77,14 @@
     margin-top: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 0.7fr;
+    height: 120px;
 }
 
 .detailpage-wrapper .text-content .mini-wrapper .item {
     border-radius: 15px;
     height: 80px;
     width: 80px;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .detailpage-wrapper .bottom {

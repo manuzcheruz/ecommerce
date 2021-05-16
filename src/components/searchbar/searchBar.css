@@ -1,14 +1,17 @@
 .search-wrapper {
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-.search-wrapper input {
     height: 50px;
-    width: 100%;
+    width: 350px;
     background-color: #F7F7F7;
     display: grid;
     grid-template-columns: 3(0.3fr 1fr 0.3fr);
     border-radius: 20px;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+}
+
+.search-wrapper input {
     border: none;
+    background-color: #F7F7F7;
 }

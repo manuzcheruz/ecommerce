@@ -1,15 +1,21 @@
 import './App.css';
-// import DetailPage from './components/detailpage/detailPage';
-// import HomePage from './components/homepage/homePage';
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
+
+import DetailPage from './components/detailpage/detailPage';
+import HomePage from './components/homepage/homePage';
 import SearchPage from './components/searchpage/searchPage';
 
 function App() {
   return (
-    <div className="App">
-      {/* <HomePage /> */}
-      <SearchPage />
-      {/* <DetailPage /> */}
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Switch>
+          <Route path='/search' component={SearchPage} />
+          <Route path='/product' component={DetailPage} />
+          <Route path='/' component={HomePage} />
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 

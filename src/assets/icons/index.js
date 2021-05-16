@@ -25,3 +25,7 @@ export {
 export {
     default as Add
 } from './add';
+
+export {
+    default as More
+} from './more';
